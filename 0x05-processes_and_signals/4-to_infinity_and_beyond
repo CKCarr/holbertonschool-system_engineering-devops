@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# To infinity and beyond
+# script that displays above indefinitely with a 2second sleep timer.
+
+n=0
+while [ $n -ge 0 ];
+do
+	echo "To infinity and beyond"
+	sleep 2s
+	(( n++ ))
+done
