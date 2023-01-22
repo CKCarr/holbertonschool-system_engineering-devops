@@ -3,4 +3,4 @@
 # Write a Bash script that stops 4-to_infinity_and_beyond process.
 # Requirements:you must use kill
 
-kill $( ps -ax | pgrep -f "infinity" )
+kill $( ps -ax | pgrep -f "beyond" )
