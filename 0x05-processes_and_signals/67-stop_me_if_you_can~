@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Stop me if you can
+# Requirements: You cannot use kill or killall
+
+trap "echo I am invincible!!!" 15
+
+pkill -f "infinity"
